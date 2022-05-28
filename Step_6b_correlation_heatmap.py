@@ -1,4 +1,4 @@
-# (c) 2019 Open Risk (https://www.openriskmanagement.com)
+# (c) 2019 - 2022 Open Risk (https://www.openriskmanagement.com)
 #
 # This code is licensed under the Apache 2.0 license a copy of which is included
 # in the source distribution of the course. This is notwithstanding any licenses of
@@ -10,10 +10,8 @@
 # either express or implied. See the License for the specific language governing permissions and
 # limitations under the License.
 
-import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
-import numpy as np
 
 # Load the data from hdf file
 df = pd.read_hdf('german_credit.h5', 'df')
@@ -39,4 +37,3 @@ for i in range(n):
     for j in range(i, n):
         if i != j and corr.iloc[i, j] > 0.5 or corr.iloc[i, j] < -0.3:
             print(corr.index[i], corr.columns[j], corr.iloc[i, j])
-

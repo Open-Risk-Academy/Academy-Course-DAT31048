@@ -1,4 +1,4 @@
-# (c) 2019 Open Risk (https://www.openriskmanagement.com)
+# (c) 2019 - 2022 Open Risk (https://www.openriskmanagement.com)
 #
 # This code is licensed under the Apache 2.0 license a copy of which is included
 # in the source distribution of the course. This is notwithstanding any licenses of
@@ -57,4 +57,3 @@ for i in range(residual):
     axes[ax_row].axvline(lb, color='r')
     axes[ax_row].axvline(rb, color='r')
 plt.savefig("outlier_plot_" + str(plot + 1) + ".png")
-

@@ -1,4 +1,4 @@
-# (c) 2019 Open Risk (https://www.openriskmanagement.com)
+# (c) 2019 - 2022 Open Risk (https://www.openriskmanagement.com)
 #
 # This code is licensed under the Apache 2.0 license a copy of which is included
 # in the source distribution of the course. This is notwithstanding any licenses of

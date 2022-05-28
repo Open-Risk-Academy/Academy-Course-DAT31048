@@ -1,4 +1,4 @@
-# (c) 2019 Open Risk (https://www.openriskmanagement.com)
+# (c) 2019 - 2022 Open Risk (https://www.openriskmanagement.com)
 #
 # This code is licensed under the Apache 2.0 license a copy of which is included
 # in the source distribution of the course. This is notwithstanding any licenses of
@@ -23,9 +23,9 @@ print(num_list)
 # Select the z-score multiple that defines an outlier
 alpha = 5
 
-print(80*'=')
+print(80 * '=')
 print("Data Outliers")
-print(80*'=')
+print(80 * '=')
 for attr in num_list:
     avg = num_df[attr].mean()
     vol = num_df[attr].std()
@@ -42,6 +42,3 @@ for attr in num_list:
     if left_outlier_no > 0:
         print('Left Boundary Outliers ', num_df[attr].pipe(lambda x: x[x < lb]).values)
     print(80 * '.')
-
-
-
