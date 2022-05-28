@@ -1,4 +1,4 @@
-# Academy-Course-DAT31018
+# Academy-Course-DAT31048
 **Exploratory Data Analysis using Pandas, Seaborn and Statsmodels**
 
 This course is a CrashProgram (short course) introducing exploratory data analysis using credit risk data as the use case
