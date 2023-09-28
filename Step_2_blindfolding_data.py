@@ -15,7 +15,7 @@ import pandas as pd
 # Load the file into a pandas dataframe
 df = pd.read_csv('german_credit.csv')
 
-# Lets get a list of all variables names
+# Let us get a list of all variables names
 headers = list(df)
 
 # This is what we should get
