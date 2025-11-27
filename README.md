@@ -30,6 +30,32 @@ is minimal
 * Step 7: Contingency tables and mosaic plots
 * Step 8: Assessing association using Chi-Square tests and Information Value
 
+<h4>Course Level and Type:</h4>
+<table summary="Course classification table" class="table-factsheet" cellspacing="5" cellpadding="5" border="1"
+       align="left">
+    <tbody>
+    <tr>
+        <td></td>
+        <td><b>Introductory Level</b></td>
+        <td><b>Core Level</b></td>
+        <td><b>Advanced Level</b></td>
+    </tr>
+    <tr>
+        <td><b>Non-Technical</b></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><b>Technical</b></td>
+        <td bgcolor="#EC9126">CrashProgram<br>DAT31048</td>
+        <td></td>
+        <td></td>
+    </tr>
+    </tbody>
+</table>
+
+
 #### Where To Get Help:
 
 If you get stuck on any issue with the course or the Academy:
