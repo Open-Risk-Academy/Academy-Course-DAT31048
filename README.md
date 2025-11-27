@@ -55,6 +55,7 @@ is minimal
     </tbody>
 </table>
 
+</br>
 
 #### Where To Get Help:
 
